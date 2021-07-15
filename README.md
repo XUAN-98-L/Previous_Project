@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Xuan Liu (@XUAN-98-L)
 - 👀 I’m interested in Bioinformatics and System biology, pharmaceutical biotechnology
 - 🌱 I’m currently studying in MSc Bioinformatics and System biology in The University of Manchester.
-- 💞️ I’m looking to collaborate on RNA-seq, metagenomics,gene expression, evolutionary biology.
+- 💞️ I’m looking for job and phD oppertunities to collaborate on RNA-seq, metagenomics,gene expression, evolutionary biology.
 - 📫 How to reach me: xuan_liu1998@hotmail.com
