@@ -1,0 +1,1 @@
+This project is designed to be completed by a group of 4 people. I am responsible for the task 1. I developed a Python program which can read in a Fasta format file containing nucleotide sequence (DNA sequence, containing ACGT) and find all the possible open reading frames.
