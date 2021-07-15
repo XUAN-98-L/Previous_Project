@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="849.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="NodeA" layoutX="79.0" layoutY="98.0" prefHeight="37.0" prefWidth="202.0" text="Name of NodeA" />
+      <TextField fx:id="NodeB" layoutX="79.0" layoutY="150.0" prefHeight="37.0" prefWidth="202.0" text="Name of NodeB" />
+      <Button fx:id="getNodeDegree" layoutX="293.0" layoutY="262.0" mnemonicParsing="false" onAction="#getNodeEdgeNum" prefHeight="30.0" prefWidth="81.0" text="get" />
+      <Text layoutX="53.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add interaction:" wrappingWidth="222.30029296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="NodeName" layoutX="79.0" layoutY="258.0" prefHeight="37.0" prefWidth="202.0" text="Name of Node" />
+      <Text layoutX="48.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get node degree:" wrappingWidth="231.30029296875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="readFile" layoutX="69.0" layoutY="455.0" mnemonicParsing="false" onAction="#readNetworkFile" prefHeight="50.0" prefWidth="313.0" text="Read txt File" />
+      <Button fx:id="saveFile" layoutX="69.0" layoutY="535.0" mnemonicParsing="false" onAction="#writeNetworkFile" prefHeight="50.0" prefWidth="313.0" text="Save as Table (.csv)" />
+      <TextArea fx:id="console" editable="false" layoutX="429.0" layoutY="51.0" prefHeight="534.0" prefWidth="374.0" />
+      <Button fx:id="addInteraction" layoutX="293.0" layoutY="128.0" mnemonicParsing="false" onAction="#addInteraction" prefHeight="30.0" prefWidth="81.0" text="add" />
+      <Button fx:id="clean" layoutX="722.0" layoutY="595.0" mnemonicParsing="false" onAction="#cleanConsole" prefHeight="30.0" prefWidth="81.0" text="clean" />
+      <Button fx:id="printStatus" layoutX="69.0" layoutY="332.0" mnemonicParsing="false" onAction="#printNetworkStatus" prefHeight="30.0" prefWidth="313.0" text="Print Network Status" />
+      <Button fx:id="printList" layoutX="69.0" layoutY="382.0" mnemonicParsing="false" onAction="#printInteractionList" prefHeight="30.0" prefWidth="313.0" text="Print Interaction List" />
+      <Text layoutX="563.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Output Region">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
