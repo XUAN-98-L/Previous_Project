@@ -1,0 +1,60 @@
+NAME
+
+	Group5_task1 — Find all the possible open reading frames (ORFs) from fasta format files
+
+SYNOPSIS
+
+	Group5_task1 [-h help] -i inputs -o output [-l orflength] [-f frame] [-a author]
+
+DESCRIPTION
+
+	Group5_task1 is a program which is able to extract all the possible open reading frames (ORFs) from fasta format files containing one or more than one genome sequence. Group5_task1 the first task in BIOL60201 Project 1 and is followed by Group5_task2, Group5_task3 and Group5_task4 to perform the Python Proteome Analysis Pipeline as a whole.
+
+OPTIONS
+
+[-h], --help
+
+	Show this help message and exit
+
+-i, --inputs
+
+	One or more genome sequence file, comma separate more than one fasta file
+	The fasta file should contain nucleotide sequence. Inputs is used to extract genome sequence and genome the species name. In this case, input is mandatory.
+
+-o, --output
+
+	ORF sequence file
+	Defines the name of the output.
+
+[-l], --orflength
+
+	Minimum length of ORF
+	ORFs should be long enough to encode a typical protein, therefore, an ORF should have a minimal length, eg.at least 150 nucleotides (50 amino acids). The unit of ORF length in the parameter is "base pair". The  default parameter for the minimum size of ORF is 300 bp (100 amino acids).
+
+[-f], --frame
+
+	Set which the reading frame to output
+	The default parameter of "-f" contains six reading frames (expressed as "123456"): three on the positive strand, and three (which are read in the reverse direction) on the negative strand. It should be in "str" type. "123" represents 3 ORFs on the positive strand, while "456" represents ORFs on negative strand.
+
+[-a], --author
+
+	Display the author's name
+
+EXAMPLES
+
+	To get ORFs longer than 500 nucleotides from file "genome.fasta":
+		Group5_task1.py -i genome.fasta -o orfextract.fasta -l 500
+
+	To get ORFs from two fasta formate files ("genome.fasta" and "sequence.fasta"):
+		Group5_task1.py -i genome.fasta,sequence.fasta -o orfextract.fasta 
+
+	To extract ORFs from positive strand DNA:
+		Group5_task1.py -i genome.fasta -o orfextract.fasta -f 123
+
+AUTHOR
+
+	Written by Xuan Liu.
+
+REPORTING BUGS
+
+	Report bugs to xuan.liu-4@postgrad.manchester.ac.uk.
