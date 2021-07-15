@@ -1,4 +1,6 @@
-If you want directly use the software, please open the shortcut of **“Main.java"** , which is the entry to the application.
+Recent developments of various high-throughput techniques have generated unprecedented quantities of biological data. In parallel with the rapid expansion of omics, researchers have shown a dramatic  interest in predicting the organization of complex biological systems by interpretation of those high-throughput data. Thus, I developed a java-based, lightweight software, NetworkAnalysis 1.0, for researchers to analyze biological networks’ properties. It provides a user-friendly graphical interface. It allows users to add  a new connection to the existed network, and analyze network characteristics, including average degree, degree distribution and hubs in the network with great accuracy.
+
+If you want directly use the software, please open **“Main.java"** (XUAN LIU\src\sample), which is the entry to the application.
 
 **Folder path "XUAN LIU\src" contains all the source code**. Detailed explanation about classes can be found in the report.
 
